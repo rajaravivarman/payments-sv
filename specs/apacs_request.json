@@ -1,0 +1,210 @@
+{
+    "0": {
+        "length": 1,
+        "name": "Dial Indicator",
+        "type": "Fixed",
+        "alias": ""
+    },
+    "1": {
+        "length": 8,
+        "name": "Terminal Identity",
+        "type": "Fixed",
+        "alias": ""
+    },
+    "2": {
+        "length": 4,
+        "name": "Message Number",
+        "type": "Fixed",
+        "alias": ""
+    },
+    "3": {
+        "length": 4,
+        "name": "Terminal Type",
+        "type": "Fixed",
+        "alias": ""
+    },
+    "4": {
+        "length": 2,
+        "name": "Message Type",
+        "type": "Fixed",
+        "alias": ""
+    },
+    "5": {
+        "length": 9,
+        "name": "Merchant Number",
+        "type": "Variable",
+        "alias": ""
+    },
+    "6": {
+        "length": 1,
+        "name": "Field Separator",
+        "type": "Fixed",
+        "alias": ""
+    },
+    "7": {
+        "length": 40,
+        "name": "Card Details",
+        "type": "Variable",
+        "alias": ""
+    },
+    "8": {
+        "length": 1,
+        "name": "Field Separator",
+        "type": "Fixed",
+        "alias": ""
+    },
+    "9": {
+        "length": 11,
+        "name": "Transaction Amount",
+        "type": "Variable",
+        "alias": ""
+    },
+    "10": {
+        "length": 1,
+        "name": "Field Separator",
+        "type": "Fixed",
+        "alias": ""
+    },
+    "11": {
+        "length": 16,
+        "name": "Descriptive Data",
+        "type": "Variable",
+        "alias": ""
+    },
+    "12": {
+        "length": 1,
+        "name": "Field Separator",
+        "type": "Fixed",
+        "alias": ""
+    },
+    "13": {
+        "length": 0,
+        "name": "Reserved",
+        "type": "Fixed",
+        "alias": ""
+    },
+    "14": {
+        "length": 1,
+        "name": "Field Separator",
+        "type": "Fixed",
+        "alias": ""
+    },
+    "15": {
+        "length": 7,
+        "name": "Authorisation Status + Authorisation Code",
+        "type": "Fixed",
+        "alias": "",
+        "subfields": {
+            "1": {
+                "length": 1,
+                "name": "Authorisation Status"
+            },
+            "2": {
+                "length": 6,
+                "name": "Authorisation Code"
+            }
+        }
+    },
+    "16": {
+        "length": 1,
+        "name": "Field Separator",
+        "type": "Fixed",
+        "alias": ""
+    },
+    "17": {
+        "length": 11,
+        "name": "Transaction Amount Other",
+        "type": "Variable",
+        "alias": ""
+    },
+    "18": {
+        "length": 1,
+        "name": "Field Separator",
+        "type": "Fixed",
+        "alias": ""
+    },
+    "19": {
+        "length": 10,
+        "name": "Transaction Date & Time",
+        "type": "Fixed",
+        "alias": ""
+    },
+    "20": {
+        "length": 1,
+        "name": "Field Separator",
+        "type": "Fixed",
+        "alias": ""
+    },
+    "21": {
+        "length": 2,
+        "name": "EMV Terminal Type",
+        "type": "Fixed",
+        "alias": ""
+    },
+    "22": {
+        "length": 1,
+        "name": "Field Separator",
+        "type": "Fixed",
+        "alias": ""
+    },
+    "23": {
+        "length": 3,
+        "name": "Terminal Country Code",
+        "type": "Fixed",
+        "alias": ""
+    },
+    "24": {
+        "length": 1,
+        "name": "Field Separator",
+        "type": "Fixed",
+        "alias": ""
+    },
+    "25": {
+        "length": 3,
+        "name": "Transaction Currency Code",
+        "type": "Fixed",
+        "alias": ""
+    },
+    "26": {
+        "length": 1,
+        "name": "Field Separator",
+        "type": "Fixed",
+        "alias": ""
+    },
+    "27": {
+        "length": 2,
+        "name": "Reason Code",
+        "type": "Fixed",
+        "alias": ""
+    },
+    "28": {
+        "length": 1,
+        "name": "Field Separator",
+        "type": "Fixed",
+        "alias": ""
+    },
+    "29": {
+        "length": 156,
+        "name": "ICC Authorisation Request",
+        "type": "Variable",
+        "alias": ""
+    },
+    "30": {
+        "length": 1,
+        "name": "Field Separator",
+        "type": "Fixed",
+        "alias": ""
+    },
+    "31": {
+        "length": 480,
+        "name": "Auxiliary Data",
+        "type": "Variable",
+        "alias": ""
+    },
+    "32": {
+        "length": 1,
+        "name": "Field Separator",
+        "type": "Fixed",
+        "alias": ""
+    }
+}

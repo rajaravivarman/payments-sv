@@ -1,0 +1,20 @@
+{
+  "name": "responders",
+  "version": "1.0.0",
+  "description": "Custom Responders for IPG Service Virtualization",
+  "main": "simulator.js",
+  "dependencies": {
+    "mongodb": "^3.5.5",
+    "nedb": "^1.8.0",
+    "yargs": "^15.3.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test",
+    "hiso_india": "node simulators\\hiso_india",
+    "apacs_aibms": "node simulators\\apacs_aibms",
+    "biciso_argentina": "node simulators\\biciso_argentina"
+  },
+  "author": "A. J. S. Raja Ravi Varman",
+  "license": "ISC"
+}

@@ -1,0 +1,40 @@
+{
+    "hiso_india": {
+        "name": "India Base24",
+        "header_length": 4,
+        "protocol": "HISO87",
+        "host": "10.77.49.232",
+        "port": "42320",
+        "spec": "./specs/hiso_india"
+    },
+    "apacs_aibms": {
+        "name": "AIBMS Base24 Classic",
+        "header_length": 4,
+        "protocol": "APACS",
+        "host": "10.77.49.232",
+        "port": "42322",
+        "spec": {
+            "req": "./specs/apacs_request",
+            "res": "./specs/apacs_response"
+        }
+    },
+    "apacs_fdms": {
+        "name": "FDMS/Cardnet MAS",
+        "header_length": 4,
+        "protocol": "APACS",
+        "host": "10.77.49.232",
+        "port": "42321",
+        "spec": {
+            "req": "./specs/apacs_request",
+            "res": "./specs/apacs_response"
+        }
+    },
+    "biciso_argentina": {
+        "name": "Argentina Base24",
+        "header_length": 4,
+        "protocol": "APACS",
+        "host": "10.77.49.232",
+        "port": "42332",
+        "spec": "./specs/biciso_argentina"
+    }
+}

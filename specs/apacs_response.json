@@ -1,0 +1,146 @@
+{
+    "0": {
+        "length": 1,
+        "name": "Dial Indicator",
+        "type": "Fixed",
+        "alias": ""
+    },
+    "1": {
+        "length": 8,
+        "name": "Terminal Identity",
+        "type": "Fixed",
+        "alias": ""
+    },
+    "2": {
+        "length": 4,
+        "name": "Message Number",
+        "type": "Fixed",
+        "alias": ""
+    },
+    "3": {
+        "length": 2,
+        "name": "Message Type",
+        "type": "Fixed",
+        "alias": ""
+    },
+    "4": {
+        "length": 2,
+        "name": "Acquirer Response Code",
+        "type": "Fixed",
+        "alias": ""
+    },
+    "5": {
+        "length": 1,
+        "name": "Confirmation Request",
+        "type": "Variable",
+        "alias": ""
+    },
+    "6": {
+        "length": 6,
+        "name": "Authorisation Code",
+        "type": "Fixed",
+        "alias": ""
+    },
+    "7": {
+        "length": 1,
+        "name": "Field Separator",
+        "type": "Variable",
+        "alias": ""
+    },
+    "8": {
+        "length": 11,
+        "name": "Transaction Amount",
+        "type": "Variable",
+        "alias": ""
+    },
+    "9": {
+        "length": 1,
+        "name": "Field Separator",
+        "type": "Fixed",
+        "alias": ""
+    },
+    "10": {
+        "length": 80,
+        "name": "Text Message",
+        "type": "Variable",
+        "alias": ""
+    },
+    "11": {
+        "length": 1,
+        "name": "Field Separator",
+        "type": "Fixed",
+        "alias": ""
+    },
+    "12": {
+        "length": 16,
+        "name": "Voice Referral Phone Number",
+        "type": "Fixed",
+        "alias": ""
+    },
+    "13": {
+        "length": 1,
+        "name": "Field Separator",
+        "type": "Fixed",
+        "alias": ""
+    },
+    "14": {
+        "length": 3,
+        "name": "Floor Limit",
+        "type": "Variable",
+        "alias": ""
+    },
+    "15": {
+        "length": 1,
+        "name": "Field Separator",
+        "type": "Fixed",
+        "alias": ""
+    },
+    "16": {
+        "length": 4,
+        "name": "Date",
+        "type": "Fixed",
+        "alias": ""
+    },
+    "17": {
+        "length": 1,
+        "name": "Field Separator",
+        "type": "Fixed",
+        "alias": ""
+    },
+    "18": {
+        "length": 289,
+        "name": "ICC Response Data",
+        "type": "Variable",
+        "alias": ""
+    },
+    "19": {
+        "length": 1,
+        "name": "Field Separator",
+        "type": "Fixed",
+        "alias": ""
+    },
+    "20": {
+        "length": 6,
+        "name": "Response Additional Data",
+        "type": "Fixed",
+        "alias": ""
+    },
+    "21": {
+        "length": 1,
+        "name": "Field Separator",
+        "type": "Fixed",
+        "alias": ""
+    },
+    "22": {
+        "length": 480,
+        "name": "Auxiliary Data",
+        "type": "Variable",
+        "alias": ""
+    },
+    "23": {
+        "length": 1,
+        "name": "Field Separator",
+        "type": "Fixed",
+        "alias": ""
+    }
+}

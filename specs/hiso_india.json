@@ -1,0 +1,194 @@
+{
+    "0": {
+        "length": 4,
+        "name": "Message Type Indicator",
+        "type": "n",
+        "alias": ""
+    },
+    "1": {
+        "length": 32,
+        "name": "Bitmap",
+        "type": "bitmap",
+        "alias": ""
+    },
+    "2": {
+        "length": 19,
+        "name": "PAN",
+        "type": "n",
+        "alias": ""
+    },
+    "3": {
+        "length": 6,
+        "name": "Processing Code",
+        "type": "n",
+        "alias": ""
+    },
+    "4": {
+        "length": 12,
+        "name": "Transaction Amount",
+        "type": "n",
+        "alias": ""
+    },
+    "7": {
+        "length": 10,
+        "name": "Transmission Date and Time",
+        "type": "n",
+        "alias": ""
+    },
+    "11": {
+        "length": 6,
+        "name": "System Trace Audit Number",
+        "type": "n",
+        "alias": ""
+    },
+    "12": {
+        "length": 6,
+        "name": "Local Time",
+        "type": "n",
+        "alias": ""
+    },
+    "13": {
+        "length": 4,
+        "name": "Local Date",
+        "type": "n",
+        "alias": ""
+    },
+    "15": {
+        "length": 4,
+        "name": "Settle Date",
+        "type": "n",
+        "alias": ""
+    },
+    "17": {
+        "length": 4,
+        "name": "Capture Date",
+        "type": "n",
+        "alias": ""
+    },
+    "18": {
+        "length": 4,
+        "name": "Merchants Type",
+        "type": "n",
+        "alias": ""
+    },
+    "22": {
+        "length": 3,
+        "name": "POS Entry Mode",
+        "type": "n",
+        "alias": ""
+    },
+    "25": {
+        "length": 2,
+        "name": "POS Condition Code",
+        "type": "n",
+        "alias": ""
+    },
+    "32": {
+        "length": 3,
+        "name": "Acquiring Institution ID",
+        "type": "n",
+        "alias": ""
+    },
+    "35": {
+        "length": 23,
+        "name": "Track 2 Data",
+        "type": "n",
+        "alias": ""
+    },
+    "37": {
+        "length": 12,
+        "name": "RRN",
+        "type": "n",
+        "alias": ""
+    },
+    "38": {
+        "length": 6,
+        "name": "Auth Code",
+        "type": "n",
+        "alias": ""
+    },
+    "39": {
+        "length": 2,
+        "name": "Response Code",
+        "type": "n",
+        "alias": ""
+    },
+    "41": {
+        "length": 16,
+        "name": "Card Acceptor Terminal ID",
+        "type": "n",
+        "alias": ""
+    },
+    "43": {
+        "length": 40,
+        "name": "Card Acceptor Name Location",
+        "type": "n",
+        "alias": ""
+    },
+    "48": {
+        "length": 30,
+        "name": "Additional Data",
+        "type": "n",
+        "alias": ""
+    },
+    "49": {
+        "length": 3,
+        "name": "Transaction Currency Code",
+        "type": "n",
+        "alias": ""
+    },
+    "60": {
+        "length": 19,
+        "name": "Terminal Data",
+        "type": "n",
+        "alias": ""
+    },
+    "61": {
+        "length": 22,
+        "name": "Card Issuer",
+        "type": "n",
+        "alias": ""
+    },
+    "62": {
+        "length": 7,
+        "name": "Postal Code",
+        "type": "n",
+        "alias": ""
+    },
+    "63": {
+        "length": 179,
+        "name": "PIN Offset",
+        "type": "n",
+        "alias": ""
+    },
+    "70": {
+        "length": 3,
+        "name": "Network Management Information",
+        "type": "n",
+        "alias": ""
+    },
+    "100": {
+        "length": 3,
+        "name": "Recieving Institution ID",
+        "type": "n",
+        "alias": ""
+    },
+    "120": {
+        "length": 32,
+        "name": "Key Management",
+        "type": "n",
+        "alias": ""
+    },
+    "125": {
+        "length": 15,
+        "name": "Account Indicator",
+        "type": "n",
+        "alias": ""
+    },
+    "128": {
+        "length": 15,
+        "name": "Message Authentication Code (MAC)",
+        "type": "n",
+        "alias": ""
+    }
+}

@@ -1,0 +1,318 @@
+{
+    "0": {
+        "length": 4,
+        "name": "Message Type Indicator",
+        "type": "n",
+        "alias": ""
+    },
+    "1": {
+        "length": 32,
+        "name": "Bitmap",
+        "type": "bitmap",
+        "alias": ""
+    },
+    "2": {
+        "length": 18,
+        "name": "PAN",
+        "type": "n",
+        "format": "llvar",
+        "alias": ""
+    },
+    "3": {
+        "length": 6,
+        "name": "Processing Code",
+        "type": "n",
+        "alias": ""
+    },
+    "4": {
+        "length": 12,
+        "name": "Transaction Amount",
+        "type": "n",
+        "alias": ""
+    },
+    "7": {
+        "length": 10,
+        "name": "Transmission Date and Time",
+        "type": "n",
+        "alias": ""
+    },
+    "11": {
+        "length": 6,
+        "name": "System Trace Audit Number",
+        "type": "n",
+        "alias": ""
+    },
+    "12": {
+        "length": 6,
+        "name": "Local Time",
+        "type": "n",
+        "alias": ""
+    },
+    "13": {
+        "length": 4,
+        "name": "Local Date",
+        "type": "n",
+        "alias": ""
+    },
+    "14": {
+        "length": 4,
+        "name": "Expiration Date",
+        "type": "n",
+        "alias": ""
+    },
+    "15": {
+        "length": 4,
+        "name": "Settle Date",
+        "type": "n",
+        "alias": ""
+    },
+    "17": {
+        "length": 4,
+        "name": "Capture Date",
+        "type": "n",
+        "alias": ""
+    },
+    "18": {
+        "length": 4,
+        "name": "Merchants Type",
+        "type": "n",
+        "alias": ""
+    },
+    "19": {
+        "length": 4,
+        "name": "Acquiring Institution Country Code (EMV)",
+        "type": "an",
+        "alias": ""
+    },
+    "22": {
+        "length": 4,
+        "name": "POS Entry Mode",
+        "type": "an",
+        "alias": ""
+    },
+    "23": {
+        "length": 3,
+        "name": "Card Sequence Number (EMV)",
+        "type": "n",
+        "alias": ""
+    },
+    "24": {
+        "length": 4,
+        "name": "International Network ID",
+        "type": "n",
+        "alias": ""
+    },
+    "25": {
+        "length": 2,
+        "name": "POS Condition Code",
+        "type": "n",
+        "alias": ""
+    },
+    "32": {
+        "length": 3,
+        "name": "Acquiring Institution ID",
+        "type": "n",
+        "alias": ""
+    },
+    "34": {
+        "length": 28,
+        "name": "Track 2 Data",
+        "type": "n",
+        "format": "llvar",
+        "encoding": "ascii",
+        "alias": ""
+    },
+    "35": {
+        "length": 37,
+        "name": "Track 2 Data",
+        "type": "n",
+        "format": "llvar",
+        "alias": ""
+    },
+    "37": {
+        "length": 12,
+        "name": "RRN",
+        "type": "n",
+        "encoding": "ascii",
+        "alias": ""
+    },
+    "38": {
+        "length": 6,
+        "name": "Auth Code",
+        "type": "n",
+        "encoding": "ascii",
+        "alias": ""
+    },
+    "39": {
+        "length": 2,
+        "name": "Response Code",
+        "type": "n",
+        "encoding": "ascii",
+        "alias": ""
+    },
+    "41": {
+        "length": 8,
+        "name": "Card Acceptor Terminal ID",
+        "type": "ans",
+        "encoding": "ascii",
+        "alias": ""
+    },
+    "42": {
+        "length": 15,
+        "name": "Card Acceptor ID Code",
+        "type": "ans",
+        "encoding": "ascii",
+        "alias": ""
+    },
+    "43": {
+        "length": 40,
+        "name": "Card Acceptor Name Location",
+        "type": "n",
+        "alias": ""
+    },
+    "45": {
+        "length": 76,
+        "name": "Track 1 Data",
+        "type": "ans",
+        "format": "llvar",
+        "encoding": "ascii",
+        "alias": ""
+    },
+    "46": {
+        "length": 999,
+        "name": "Track 1 Data Unread/Additional Data",
+        "type": "n",
+        "format": "llvar",
+        "encoding": "ascii",
+        "alias": ""
+    },
+    "48": {
+        "length": 999,
+        "name": "Additional Data",
+        "type": "n",
+        "format": "lllvar",
+        "encoding": "ascii",
+        "alias": ""
+    },
+    "49": {
+        "length": 3,
+        "name": "Transaction Currency Code",
+        "type": "n",
+        "encoding": "ascii",
+        "alias": ""
+    },
+    "52": {
+        "length": 64,
+        "name": "PIN",
+        "type": "b",
+        "alias": ""
+    },
+    "54": {
+        "length": 120,
+        "name": "Additional Amount",
+        "type": "ans",
+        "format": "lllvar",
+        "alias": ""
+    },
+    "55": {
+        "length": 999,
+        "name": "Card Secure Code",
+        "type": "ans",
+        "format": "lllvar",
+        "encoding": "ascii",
+        "alias": ""
+    },
+    "59": {
+        "length": 999,
+        "name": "Additional Information",
+        "type": "ans",
+        "format": "lllvar",
+        "encoding": "ascii",
+        "alias": ""
+    },
+    "60": {
+        "length": 999,
+        "name": "Application Release",
+        "type": "ans",
+        "format": "lllvar",
+        "encoding": "ascii",
+        "alias": ""
+    },
+    "61": {
+        "length": 999,
+        "name": "Deferred Payment",
+        "type": "ans",
+        "format": "lllvar",
+        "alias": ""
+    },
+    "62": {
+        "length": 999,
+        "name": "Ticket of Invoice Number",
+        "type": "ans",
+        "format": "lllvar",
+        "encoding": "ascii",
+        "alias": ""
+    },
+    "63": {
+        "length": 999,
+        "name": "Message Text from Host",
+        "type": "ans",
+        "format": "lllvar",
+        "encoding": "ascii",
+        "alias": ""
+    },
+    "65": {
+        "length": 1,
+        "name": "Dummy for Arg",
+        "type": "n",
+        "alias": ""
+    },
+    "68": {
+        "length": 1,
+        "name": "Dummy for Arg",
+        "type": "n",
+        "alias": ""
+    },
+    "69": {
+        "length": 1,
+        "name": "Dummy for Arg",
+        "type": "n",
+        "alias": ""
+    },
+    "70": {
+        "length": 3,
+        "name": "Network Management Information",
+        "type": "n",
+        "alias": ""
+    },
+    "72": {
+        "length": 1,
+        "name": "Dummy for Arg",
+        "type": "n",
+        "alias": ""
+    },
+    "100": {
+        "length": 3,
+        "name": "Recieving Institution ID",
+        "type": "n",
+        "alias": ""
+    },
+    "120": {
+        "length": 32,
+        "name": "Key Management",
+        "type": "n",
+        "alias": ""
+    },
+    "125": {
+        "length": 15,
+        "name": "Account Indicator",
+        "type": "n",
+        "alias": ""
+    },
+    "128": {
+        "length": 15,
+        "name": "Message Authentication Code (MAC)",
+        "type": "n",
+        "alias": ""
+    }
+}
